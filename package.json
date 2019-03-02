@@ -1,0 +1,30 @@
+{
+  "name": "escuchador",
+  "version": "1.0.0",
+  "description": "",
+  "main": "santiago.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roberto14118927/escuchador.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "hex2ascii": "0.0.3",
+    "moment": "^2.20.1",
+    "mysql": "^2.15.0",
+    "os": "^0.1.1",
+    "pg": "^7.4.1",
+    "push.js": "^1.0.5",
+    "shortid": "^2.2.8",
+    "socket.io": "^2.0.4"
+  },
+  "bugs": {
+    "url": "https://github.com/roberto14118927/escuchador/issues"
+  },
+  "homepage": "https://github.com/roberto14118927/escuchador#readme"
+}
