@@ -39,7 +39,7 @@ var web_sockets = [];
 
 io.on('connection', function(socket) {
   web_sockets.push(socket)
-  
+  console.log("Conectado => " + socket);
   socket.on('disconnect', function() {
 	var idx = web_sockets.indexOf(socket);
 	if (idx != -1) {
@@ -56,7 +56,7 @@ io.on('connection', function(socket) {
   	//	la variable mensaje contiene un string.
   	
   	//Almacenar en una base de datos el mensaje
-  	console.log("El cliente " + sock.remoteAddress +':'+ sock.remotePort + " dice: " + mensaje);
+  	console.log("El cliente dice: " + mensaje);
   	uploadMessageToDatabase(mensaje);
   });
 
