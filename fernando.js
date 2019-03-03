@@ -26,7 +26,7 @@ for (var k in interfaces) {
 
 var HOST = '134.209.76.81';
 var PORT = 1011;//Este puerto debe cambiar, es el puerto para el socket
-server.listen(5678);// Este puerto es para el clente en angular
+server.listen(5679);// Este puerto es para el clente en angular
 var arr;
 var arr1;
 var global_imei="";
